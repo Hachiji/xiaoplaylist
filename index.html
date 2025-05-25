@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link 
+        rel="stylesheet" 
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+
+    <title>Xiao Playlist</title>
+</head>
+<body>
+    <article class="container">
+        <!--desktop navigation bar-->
+        <header>
+            <nav>
+                <button class="menu_icon">
+                    <i class="fa-solid fa-bars"></i>
+                </button>
+                <ul class="header_list">
+                    <li>
+                        <!--logo-->
+                        <div class="logo">
+                            <img src="assets/logo/xiaoplay4.png" alt="Xiao Playlist Logo">
+                        </div>
+                    </li>
+                    <li>
+                        <!--dark mode-->
+                        <button id="darkMode" class="header_sun">
+                            <i class="fa-regular fa-sun"></i>
+                        </button>
+                    </li>
+                    <li>
+                        <a class="header_links" href="#">J-Pop</a>
+                    </li>
+                    <li>
+                        <a class="header_links" href="#">J-Rock</a>
+                    </li>
+                    <li>
+                        <a class="header_links" href="#">Pinoy OPM</a>
+                    </li>
+                    <li>
+                        <a class="header_links" href="#">K-Pop</a>
+                    </li>
+                    <li>
+                        <a class="header_links" href="#">Rock</a>
+                    </li>
+                    <li>
+                        <a class="header_links" href="#">Western Music</a>
+                    </li>
+                    <li>
+                        <button class="header_btn">Login</button>
+                    </li>
+                </ul>
+            </nav>
+        </header>
+        <!--mobile navigation bar-->
+        <div class="mobile_header">
+            <button class="mobile_menu_icon">MENU</button>
+            <ul class="mobile_header_list">
+                <li>
+                    <a class="mobile_header_links" href="#">J-Pop</a>
+                </li>
+                <li>
+                    <a class="mobile_header_links" href="#">J-Rock</a>
+                </li>
+                <li>
+                    <a class="mobile_header_links" href="#">Pinoy OPM</a>
+                </li>
+                <li>
+                    <a class="mobile_header_links" href="#">K-Pop</a>
+                </li>
+                <li>
+                    <a class="mobile_header_links" href="#">Rock</a>
+                </li>
+                <li>
+                    <a class="mobile_header_links" href="#">Western Music</a>
+                </li>
+                <li>
+                    <button class="mobile_header_btn">Login</button>
+                </li>
+            </ul>
+        </div>
+        <main>
+            <!--trending section-->
+            <section class="trending section">
+                    <a href="./trending-page.html" class="show-all">show all</a>
+                <div class="trending_content" id="trendingContent">
+                    <!--dynamic trending boxes in this line of code using JS-->
+                </div>
+                <a href="upload.php">Upload Music</a>
+            </section>
+            <!-- <section></section>
+            <section></section> 
+            <section></section>
+            <section></section>
+            <section></section> -->
+        </main>
+
+
+    <script type="module" src="./src/main.js"></script>
+    </article>
+</body>
+</html>

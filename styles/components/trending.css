@@ -1,0 +1,44 @@
+.trending_content {
+    display: flex;
+    flex: 4;
+    gap: var(--size-md);
+}
+
+.trending_box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: justify;
+    padding: 10px;
+    height: auto;
+    border: 1px solid black;
+    border-radius: 5px;
+    background-color: var(--light);
+}
+
+.trending_box:hover {
+    transform: scale(1.1);
+}
+
+@media (max-width: 767px) {
+    .trending_content {
+        flex-direction: column;
+    }
+}
+
+@media (min-width: 768px) {
+
+}
+
+@media (min-width: 1024px) {
+
+}
+
+@media (min-width: 1440px) {
+
+}
+
+@media (min-width: 1560px) {
+
+}

@@ -1,0 +1,68 @@
+.container {
+    margin-left: 3rem;
+    margin-right: 3rem;
+    height: 100vh;
+}
+
+.section {
+    margin-top: var(--size-5xl);
+}
+
+ul {
+    padding: 0;
+    margin: 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+/*media queries*/
+@media (max-width: 767px) {
+    .container {
+        margin-left: 1rem;
+        margin-right: 1rem;
+    }
+}
+
+@media (min-width: 768px) {
+
+}
+
+@media (min-width: 1024px) {
+
+}
+
+@media (min-width: 1440px) {
+
+}
+
+@media (min-width: 2560px) {
+
+}
+
+/* @media (max-width: 767px) {
+
+}
+
+@media (min-width: 768px) {
+
+}
+
+@media (min-width: 1024px) {
+
+}
+
+@media (min-width: 1440px) {
+
+}
+
+@media (min-width: 1560px) {
+
+} */
