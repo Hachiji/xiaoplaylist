@@ -15,6 +15,6 @@ cssFiles.forEach( file => {
     document.head.appendChild(link);
 });
 
-import playerSlice from './components/player.js';
+// import playerSlice from './components/player.js';
 
-playerSlice();
+// playerSlice();

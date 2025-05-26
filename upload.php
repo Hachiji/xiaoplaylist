@@ -1,3 +1,9 @@
+<?php 
+include '../database/config.php';
+
+
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -19,18 +25,20 @@
                 <i class="fa-solid fa-arrow-left"></i>
             </a>
             <h2 class="form_title">Upload <strong>Music</strong></h2>
-            <form action="/handlers/upload_handler.php" method="post">
+            <form action="handlers/upload_handler.php" method="post" enctype="multipart/form-data">
                 <div class="form_group">
                     <label for="song_name">Song Name:</label>
                     <input type="text" id="song_name" name="song_name" required>
                     <label for="singer">Singer:</label>
                     <input type="text" id="singer" name="singer" required>
-                    <label for="song_img">Song Image URL:</label>
-                    <input type="text" id="song_img" name="song_img" required>
+                    <label for="song_img">Song Image:</label>
+                    <input type="file" id="song_img" name="song_img" accept="image/*">
                     <label for="song_file">Song File:</label>
                     <input class="form_file" type="file" id="song_file" name="song_file" accept="audio/*" required>
                 </div>
-                <button type="submit" class="form_btn">Upload</button>
+                <div class="form_btn_container">
+                    <button type="submit" class="form_btn">Upload</button>
+                </div>
             </form>
         </div>
     </div>

@@ -62,6 +62,14 @@
     padding: 10px;
 }
 
+.form_btn_container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin-top: 1rem;
+}
+
 .form_btn {
     display: inline-block;
     padding: 0.5rem 1rem;
@@ -104,6 +112,15 @@ strong {
         margin-top: 0.5rem;
         font-size: var(--size-md);
     }
+
+    .form_btn_container {
+        margin-top: 0.5rem;
+    }
+
+    .form_btn {
+        padding: 0.5rem;
+        font-size: var(--size-base);
+    }
 }
 
 @media (min-width: 768px) {
@@ -114,6 +131,11 @@ strong {
         font-size: var(--size-xl);
         color: var(--rose);
     }
+
+    .form_btn {
+        padding: 0.5rem;
+        font-size: var(--size-base);
+    }
 }
 
 @media (min-width: 1024px) {
@@ -122,8 +144,8 @@ strong {
     }
 }
 
-@media (min-width: 1440px) {
-}
+/* @media (min-width: 1440px) {
+} */
 
 @media (min-width: 2560px) {
 

@@ -57,14 +57,14 @@ button {
     padding: 0;
 }
 
-.title {
+.main_title {
     font-size: var(--size-md);
     color: var(--rose);
     text-decoration: underline;
     text-transform: uppercase;
 }
 
-.show-all {
+.main_show-all {
     display: flex;
     justify-content: flex-end;
     margin-bottom: 1rem;
@@ -73,42 +73,45 @@ button {
     text-transform: capitalize;
     font-size: var(--size-md);
 }
-.show-all:hover {
+.main_show-all:hover {
     color: var(--orange);
     text-decoration: underline;
 }
 
 h1 {
     text-align: center;
-    color: var(--goldenrod);
+    color: var(--rose);
     text-transform: capitalize;
     margin-top: 1rem;
 }
 
 @media (max-width: 767px) {
-    .show-all {
+    .main_show-all {
         font-size: var(--size-base);
+    }
+    h1 {
+        font-size: var(--size-xl)
     }
 }
 
 @media (min-width: 768px) {
-    .show-all {
+    .main_show-all {
         font-size: var(--size-md);
     }
 }
 
 @media (min-width: 1024px) {
-    .show-all {
+    .main_show-all {
         font-size: var(--size-md);
     }
 }
 
-@media (min-width: 1440px) {
+/* @media (min-width: 1440px) {
 
-}
+} */
 
 @media (min-width: 1560px) {
-    .show-all {
+    .main_show-all {
         font-size: var(--size-lg);
     }
 }

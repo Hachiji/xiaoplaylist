@@ -4,9 +4,9 @@
     $pass = '';
     $dbname = 'music_db';
 
-    $conn = new mysqli($host, $username, $password, $dbname);
+    $conn = new mysqli($host, $username, $pass, $dbname);
 
-    if($conn->connection_error) {
+    if($conn->connect_error) {
         die("Connection Failed: " . $conn->connect_error);
     }
 

@@ -13,7 +13,11 @@ ul {
     margin: 0;
 }
 
-
+audio {
+    display: block;
+    width: 100%;
+    margin: 10px 0;
+}
 
 
 

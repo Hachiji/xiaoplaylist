@@ -15,10 +15,15 @@
     border: 1px solid black;
     border-radius: 5px;
     background-color: var(--light);
+    overflow: visible;
 }
-
-.trending_box:hover {
-    transform: scale(1.1);
+.trending_box img {
+    width: 100%;
+    max-width: 200px;
+    height: auto;
+    border-radius: 5px;
+    margin-bottom: 1rem;
+    border: 1px solid var(--rose);
 }
 
 @media (max-width: 767px) {
