@@ -17,9 +17,16 @@ if ($result->num_rows > 0) {
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link 
-        rel="stylesheet" 
-        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"/>
+
+    <!-- css styles -->
+    <link rel="stylesheet" href="./styles/main.css"/>
+    <link rel="stylesheet" href="./styles/components/header.css"/>
+    <link rel="stylesheet" href="./styles/components/mobile-nav.css"/>
+    <link rel="stylesheet" href="./styles/components/trending.css"/>
+    <link rel="stylesheet" href="./styles/components/trending-show.css"/>
+    <link rel="stylesheet" href="./styles/components/form.css"/>
+    <link rel="stylesheet" href="./styles/util.css"/>
 
     <title>Xiao Playlist</title>
 </head>
@@ -124,9 +131,7 @@ if ($result->num_rows > 0) {
             <section></section>
             <section></section> -->
         </main>
-
-
-    <script type="module" src="./src/main.js"></script>
+    <script src="./src/main.js"></script>
     </article>
 </body>
 </html>
